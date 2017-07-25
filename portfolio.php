@@ -4,28 +4,13 @@
 
 	<head>
 		<title>My Profile</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style3.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/style3.css">
 	</head>
 
 	<body>
 
-	<div class="whiteHeader">
-
-		<ul>
-			<li><a href="index.html">About |</a></li>
-			<li><a href="portfolio.html">Portfolio |</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-
-		<div class="myName1">
-			<h1 class="myName2">Luis Hernandez</h1>
-		</div>
-			
-	</div>
-
-	
-
+	<?php require './header.php' ?>
 
 		<div class="portfolio-div">
 			<h1 class="portfolio">Portfolio</h1>
@@ -61,17 +46,8 @@
 	
 		</div>
 
-		<div class="contactInfo">
-			<p class="connect">Connect with Me!</p>
-				<hr class="hr3">
-				<a href="https://github.com/lufherna?tab=repositories"><img class="github" src="assets/images/github.jpg"></a>
-				<a href="www.linkedin.com/in/lufherna"><img class="linkedin" src="assets/images/linkedin.png"></a>
-				<a href="http://stackoverflow.com/users/8011529/lufherna"><img class="stackoverflow" src="assets/images/stackoverflow.png"></a>
-		</div>
-
-
-
-		<footer class="footer">&reg;Copyright 2017 Luis Hernandez</footer>
+		<?php require './sidebar.php' ?>
+		<?php require './footer.php' ?>
 
 	</body>
 
