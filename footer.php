@@ -1,0 +1,1 @@
+<footer class="footer">&reg;Copyright 2017 Luis Hernandez</footer>
